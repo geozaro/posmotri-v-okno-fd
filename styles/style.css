@@ -35,6 +35,7 @@ html {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
+  font-weight: 400;
   background-color: #1b1919;
 }
 
@@ -43,7 +44,7 @@ html {
   background-color: transparent;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 22px;
   color: #fff;
   outline: none;
@@ -69,9 +70,9 @@ html {
 }
 
 .more-button {
-  min-width: 100%;
+  max-width: 100%;
   min-height: 34px;
-  margin: 0 2px 2px 2px;
+  margin: 0 3px 2px 2px;
 }
 
 .content {
@@ -140,8 +141,8 @@ html {
   color: rgb(255 255 255 / 0.7);
   line-height: 22px;
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  text-align: center;
 }
 
 .search-form__checkbox-list {
@@ -177,7 +178,7 @@ html {
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 94%;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -215,7 +216,7 @@ html {
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 100%;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -226,7 +227,7 @@ html {
 .content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 16.2px;
   letter-spacing: 0;
   display: -webkit-box;
@@ -248,16 +249,22 @@ html {
   flex-direction: column;
   gap: 30px;
   position: relative;
+  max-height: 298px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-right: 3px;
+}
+
+.content__list-item {
+  padding-left: 0px;
 }
 
 .content__list-container {
-  padding: 0 3px 0 2px;
+  padding: 0;
 }
 
 .content__video-card {
