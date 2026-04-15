@@ -135,6 +135,9 @@ html {
 .search-form__fieldset-title {
   margin-bottom: 5px;
   line-height: 22px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .search-form__textfield::placeholder {
@@ -241,18 +244,14 @@ html {
   -webkit-box-orient: vertical;
 }
 
-.search-form__fieldset-title {
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-}
-
 .content__list-container {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
   max-height: 298px;
+  padding: 0;
+  overflow: hidden scroll;
 }
 
 .content__list {
@@ -264,10 +263,6 @@ html {
 
 .content__list-item {
   padding-left: 0px;
-}
-
-.content__list-container {
-  padding: 0;
 }
 
 .content__video-card {
@@ -293,8 +288,7 @@ html {
 }
 
 .content__list-container {
-  max-height: 298px;
-  overflow: hidden scroll;
+  
 }
 
 h1,
