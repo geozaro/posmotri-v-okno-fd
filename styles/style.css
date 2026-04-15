@@ -143,6 +143,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  text-align: left;
 }
 
 .search-form__checkbox-list {
@@ -221,6 +222,8 @@ html {
   letter-spacing: 0;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin-bottom: 6px;
 }
 
