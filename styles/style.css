@@ -72,7 +72,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.222;
   min-height: 34px;
   background-color: transparent;
 }
@@ -151,7 +151,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.222;
   text-align: left;
   width: 225px;
   min-height: 27px;
@@ -164,7 +164,7 @@ html {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  line-height: 22px;
+  line-height: 1.222;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -208,7 +208,7 @@ html {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   letter-spacing: 0;
   text-transform: uppercase;
   margin-bottom: 26px;
@@ -246,7 +246,7 @@ html {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: 0;
   text-transform: uppercase;
   text-overflow: ellipsis;
@@ -259,7 +259,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 16.2px;
+  line-height: 0.9;
   letter-spacing: 0;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
